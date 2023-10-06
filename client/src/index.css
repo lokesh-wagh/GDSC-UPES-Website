@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red-color: hsl(5, 81%, 56%);
+  --blue-color: hsl(219, 80%, 62%);
+  --green-color: hsl(151, 85%, 33%);
+  --yellow-color: hsl(45, 96%, 50%);
+
+  --red-color-light: hsl(4, 82%, 90%);
+  --blue-color-light: hsl(219, 82%, 90%);
+  --green-color-light: hsl(151, 87%, 90%);
+  --yellow-color-light: hsl(45, 97%, 90%);
+}
+
+
+::-webkit-scrollbar {
+  width: 6px; 
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+::-webkit-scrollbar:horizontal{
+  display: none;
+}
